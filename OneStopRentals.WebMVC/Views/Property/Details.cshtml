@@ -1,0 +1,66 @@
+﻿@model OneStopRentals.Models.PropertyDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PropertyDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bedroom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bedroom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ListedPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ListedPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SquareFeet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SquareFeet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailableNow)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailableNow)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

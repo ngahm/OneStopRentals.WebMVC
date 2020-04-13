@@ -1,0 +1,72 @@
+﻿@model OneStopRentals.Models.PropertyDetail
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PropertyDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bedroom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bedroom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ListedPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ListedPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SquareFeet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SquareFeet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailableNow)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailableNow)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
