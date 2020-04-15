@@ -1,3 +1,12 @@
+<!-- OneStopRentals -->
+<br />
+<p align="center">
+https://onestoprentals.azurewebsites.net
+
+  <h3 align="center">AuctionExpress</h3>
+</p>
+
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
