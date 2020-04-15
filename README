@@ -1,4 +1,26 @@
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Roadmap](#roadmap)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+AuctionExpress is a .Net Entity Framework WebAPI utilizing an n-tier architecture built during the BlueBadge phase of the Jan.-April 2020 Full-time Software Development bootcamp at ElevenFifty Academy.
+
+Through the Api, registered users can post products for sale in an online auction format, as well as bid on currently open auctions.  Once the auctions are over, the products sellers can create transactions, simulating a third-party service that would handle credit card transactions.
+
+The repo also includes a simple front-end built using razor pages to access and demonstrate the api end-points.
+
+
+### Built With
+
+* [.Net Framework]()
+* [Bootstrap]()
+* [Razor Pages]()
 
 
 Error Messages
