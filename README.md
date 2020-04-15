@@ -1,9 +1,9 @@
 <!-- OneStopRentals -->
 <br />
-<p align="center">
-https://onestoprentals.azurewebsites.net
 
-  <h3 align="center">AuctionExpress</h3>
+<p align="center">
+  <h3 align="center">OneStopRentals</h3>
+  <h3 align="center">https://onestoprentals.azurewebsites.net</h3>
 </p>
 
 
