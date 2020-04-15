@@ -9,21 +9,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-AuctionExpress is a .Net Entity Framework WebAPI utilizing an n-tier architecture built during the BlueBadge phase of the Jan.-April 2020 Full-time Software Development bootcamp at ElevenFifty Academy.
+OneStopRentals is a N-Tier layered architecture with a MVC frontend framework. It was my first independent project implementing all patterns and frameworks with a user focused webpage deployed to the Azure cloud. This was done with support from Eleven Fifty Academy's software development program Jan-April 2020.
 
-Through the Api, registered users can post products for sale in an online auction format, as well as bid on currently open auctions.  Once the auctions are over, the products sellers can create transactions, simulating a third-party service that would handle credit card transactions.
-
-The repo also includes a simple front-end built using razor pages to access and demonstrate the api end-points.
+My project is an property management software focusing on developing support for landlords or developers. Currently, it is an internal service with the intention to expand on the level of services. The software will bring together multiple tenets with the convenience of actionable insights and transparency with the goal to maintain good standing tenets and mitigate outstanding payables. 
 
 
-### Built With
+
+## Built With
 
 * [.Net Framework]()
 * [Bootstrap]()
 * [Razor Pages]()
 
 
-Error Messages
+##Roadmap
 
 Migrations
 There is already an object named 'IdentityRole' in the database.
