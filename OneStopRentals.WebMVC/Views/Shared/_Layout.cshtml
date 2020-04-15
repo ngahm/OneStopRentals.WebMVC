@@ -8,10 +8,10 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
+<body style="background-image:url(/Content/Assets2/property-logo-png-2.png); background-repeat: no-repeat;  ">
 
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top"  >
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,8 +21,16 @@
                 </button>
                 @Html.ActionLink("One Stop Rentals", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
+
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Properties <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Additional Property", "Create", "Property", null, new { /*id = "item "*/ })</li>
+                            <li>@Html.ActionLink("Property List", "Index", "Property", null, new { /* id = "item " */ })</li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Maintenace Requests <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -46,7 +54,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - One Stop Rentals - Created By Nick Gahm</p>
         </footer>
     </div>
 
@@ -60,6 +68,4 @@
 
 
 <style>
- 
-
 </style>
