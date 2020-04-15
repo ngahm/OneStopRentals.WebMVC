@@ -4,13 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2 style="color:forestgreen;"> Payments</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
-    <tr>
+    <tr style="background-color:forestgreen; color:black">
         <th>
             @Html.DisplayNameFor(model => model.POSID)
         </th>
@@ -36,7 +36,7 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr style="color:black; background-color:floralwhite">
         <td>
             @Html.DisplayFor(modelItem => item.POSID)
         </td>
