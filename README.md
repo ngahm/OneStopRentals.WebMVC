@@ -24,6 +24,8 @@ My project is an property management software focusing on developing support for
 
 ## Roadmap
 
+Error Messages
+
 Migrations
 There is already an object named 'IdentityRole' in the database.
 Solution: Go to WebConfig and check the CatalogName, another project listed
@@ -40,12 +42,14 @@ Solution: Check SQL Server probably need to refresh DB list and delete old DB
 Cannot find the object "dbo.Maintenance" because it does not exist or do not have permissions.
 Solution: Deleted only part of DBO, should delete entire DB and re-migrate
 
+
 Services
 system.invalidoperationexception sequence contains no elements
 Solution: In Services must list .SingleOrDefault to allow empty Views IPO .Single or .First
 
 System.NullReferenceException: 'Object reference not set to an instance of an object.
 Solution: Missing an ID body reference in Get section of Service layer
+
 
 Views
 System.ArgumentNullException: Value cannot be null. Parameter name:input
